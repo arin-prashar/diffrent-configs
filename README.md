@@ -51,7 +51,7 @@ Configuration
 ## Starship
 The starship.toml file in this repository servesthe configuration file for Starship. It defines how the prompt should look and what information it should display. The configuration is written in TOML (Tom's Obvious, Minimal Language).
 
-<img src="image2.png">
+<img src="iamge2/image2.png">
 
 <br>
 
