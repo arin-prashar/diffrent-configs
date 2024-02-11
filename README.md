@@ -28,7 +28,7 @@ Follow the official [Starship installation guide](https://starship.rs/guide/#ðŸš
 
 **Clone this Repository:**
 
-```
+```bash
 $ git clone https://github.com/NishanthAnand21/starship-config.git
 
 Copy Configuration File:
@@ -37,11 +37,10 @@ $  cp starship-configuration/starship.toml ~/.config/starship.toml
 
 Source Configuration File:
 Depending on your shell, add the following line to your shell profile file (e.g., ~/.rc, ~/.zshrc, ~/.config/fish/config.fish):
+$ echo $SHELL
 
-
-Replace <shell> with your shell of choice (e.g., , zsh, fish):
+According to the output replace <shell> :
 $ eval "$(starship init <shell>)"
-
 
 Restart Your Shell:
 Restart your shell or run source ~/.your-shell-profile to apply the changes.
@@ -49,10 +48,20 @@ Restart your shell or run source ~/.your-shell-profile to apply the changes.
 Configuration
 
 # Overview
-
+## Starship
 The starship.toml file in this repository servesthe configuration file for Starship. It defines how the prompt should look and what information it should display. The configuration is written in TOML (Tom's Obvious, Minimal Language).
 
-<img src="image.png">
+<img src="image2.png">
+
+<br>
+
+## ZSH
+
+The .zshrc is default config of the .zshrc with some tweaking and extra aliases and follows same format as the .zshrc_original
+> This file works best with the above starship.toml (according to me) 
+> Try to have a solid black background
+
+<img src="image1.png">
 
 # Customization
 
